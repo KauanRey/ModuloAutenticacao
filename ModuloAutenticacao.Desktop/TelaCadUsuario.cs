@@ -54,5 +54,10 @@ namespace ModuloAutenticacao.Desktop
             txtLogin.Text = "O Leave foi acionado";
             txtLogin.BackColor = Color.Red;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new TelaNivel().Show ();    
+        }
     }
 }

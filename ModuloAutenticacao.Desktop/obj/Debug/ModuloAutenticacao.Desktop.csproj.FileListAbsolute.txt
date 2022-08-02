@@ -13,3 +13,4 @@ C:\Users\Aluno\source\repos\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\De
 C:\Users\Aluno\source\repos\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.exe
 C:\Users\Aluno\source\repos\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.pdb
 C:\Users\Aluno\source\repos\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaCadUsuario.resources
+C:\Users\Aluno\source\repos\ModuloAutenticacao\ModuloAutenticacao.Desktop\obj\Debug\ModuloAutenticacao.Desktop.TelaNivel.resources
