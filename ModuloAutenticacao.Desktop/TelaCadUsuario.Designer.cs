@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label1.Location = new System.Drawing.Point(109, 101);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 13);
@@ -61,6 +61,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label2.Location = new System.Drawing.Point(59, 144);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
@@ -70,6 +71,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label3.Location = new System.Drawing.Point(324, 144);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
@@ -80,6 +82,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label4.Location = new System.Drawing.Point(118, 194);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(33, 13);
@@ -123,6 +126,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label6.Location = new System.Drawing.Point(111, 233);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 13);
@@ -132,6 +136,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label7.Location = new System.Drawing.Point(64, 265);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 13);
@@ -163,6 +168,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label5.Location = new System.Drawing.Point(114, 304);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
@@ -192,11 +198,13 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label8.Location = new System.Drawing.Point(154, 21);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(328, 37);
             this.label8.TabIndex = 17;
             this.label8.Text = "Cadastro de Usuários";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // TelaCadUsuario
             // 

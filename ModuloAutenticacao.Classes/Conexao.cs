@@ -1,9 +1,10 @@
-﻿using System.Data.Common;
+﻿//namespace = pasta (lógica)
+using System.Data.Common;
 using System.Data.SqlClient;
 
 namespace ModuloAutenticacao.Classes
 {
-    internal class Conexao
+    public class Conexao
     {
         public static SqlConnection _conn;
 
@@ -15,7 +16,7 @@ namespace ModuloAutenticacao.Classes
                 if (_conn == null)
                 {
                     //criar a conexão com MySQL   //nos parênteses -connection string
-                    _conn = new SqlConnection(@"Server = Lab206_19\SQLEXPRESS; Database = projetoestoquev; Uid = sa; Pwd = teste*123;");
+                    _conn = new SqlConnection(@"Server = Lab206_19\SQLEXPRESS; Database = ProjetoEstoquev; Uid = sa; Pwd = teste*123;");
                 }
                 //retorna a conexão
                 return _conn;
